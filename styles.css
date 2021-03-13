@@ -1,0 +1,141 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+
+p {
+  font-family: Arial;
+}
+  
+  header {
+    background: teal;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: teal;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: teal;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  
+  
+  .container {
+    width: 1500px;
+    margin: 0 auto;
+  }
+
+  .col {
+    padding-top: 40px;
+    padding-right: 60px;    
+  }
+
+  .col-md-4 {
+    padding-top: 40px;
+  }
+
+  
+  .col-md-6 {
+    padding-top: 40px;
+    padding-right: 60px;    
+  }
+
+  .col-md-3 {
+    margin-right: 200px;
+    padding-top: 40px;
+  }
+
+  .col-12 {
+    padding-top: 40px;
+  }
+
+  .mt-0 {
+    padding-top: 115px;
+  }
+
+  .table {
+    font-family: Arial;
+  }
+
+
+
+
+
+  .box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+  }
+  
+  .visualizations {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+  }
+
+  .visual1 {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 2px;
+  }
+  
+  .visual2 {
+    top: -150px;
+    right: -215px;
+  }
+  
+  .visual3 {
+    top: -134px;
+  }
+  
+  .visual4 {
+    top: -284px;
+    right: -215px;
+  }
+  
+ 
+  
+  #intro-image {
+    width: 350px;
+    height: 250px;
+    margin-right: 20px;
+    padding-top: 8px;
+    float: left;
+  }
+
+  #main-image {
+    width: 500px;
+    height: 350px;
+  }
+  
+  p.dotted {
+    border-style: dotted;
+    border-color: pink;
+  }
+

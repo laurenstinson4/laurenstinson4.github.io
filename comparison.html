@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Comparisons</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Latitude & The Weather</h1>
+
+  <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <!-- HOME BUTTON -->
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <!-- DROPDOWN PLOTS BUTTON -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" href="#">
+                  <a class="dropdown-item" href="max-temperature-visual.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity-visual.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness-visual.html">Cloudiness</a>
+                  <a class="dropdown-item" href="windspeed-visual.html">Wind Speed</a>
+                </div>
+              </li>
+              <!-- COMPARISON BUTTON -->
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <!-- DATA BUTTON -->
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+
+            </ul>
+            
+          </div>
+        </nav>
+<!-- ----------------------------------------------- -->
+          
+    </header>
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-12">
+          <section id="intro">
+            <h2>Comparison: Latitude vs X</h2>
+            <p> 
+                <br>
+                Click any plot to get an in-depth analysis.
+        </div>
+      </div>
+
+      <div class="row">  
+        <div class="col-md-3">
+            <h3> vs. Max Temperature </h3>
+          <div id="visualizations">
+            <div class="visualizations">
+                <a href="max-temperature-visual.html"><img src="images/Latitude_vs_Temperature_Plot.jpg" alt="max temperature"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+            <h3> vs. Humidity </h3>
+            <div id="visualizations">
+              <div class="visualizations">
+                  <a href="humidity-visual.html"><img src="images/Latitude_vs_Humidity_Plot.jpg" alt="humidity"></a>
+              </div>
+            </div>
+          </div>
+      </div> 
+
+      <div class="row"> 
+          <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+      </div>
+      <div class="row">  
+        <div class="col-md-3">
+            <h3> vs. Cloudiness </h3>
+          <div id="visualizations">
+            <div class="visualizations">
+                <a href="cloudiness-visual.html"><img src="images/Latitude_vs_Cloudiness_Plot.jpg" alt="cloudiness"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+            <h3> vs. Wind Speed </h3>
+            <div id="visualizations">
+              <div class="visualizations">
+                  <a href="windspeed-visual.html"><img src="images/Latitude_vs_Windspeed_Plot.jpg" alt="wind speed"></a>
+              </div>
+            </div>
+          </div>
+      </div>   
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   
+</body>
+</html>
